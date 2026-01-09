@@ -10,7 +10,7 @@
   height: 100vh;
 }
 
-/* LEFT IMAGE SECTION */
+ 
 .left-image {
   flex: 1;
   background-image: url("https://images.pexels.com/photos/35293768/pexels-photo-35293768.jpeg");
@@ -44,7 +44,7 @@
   opacity: 0.9;
 }
 
-/* RIGHT CONTENT */
+ 
 .right-content {
   flex: 1;
   background-color: #f7f7f7;
