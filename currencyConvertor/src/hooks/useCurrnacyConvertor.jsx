@@ -7,7 +7,7 @@ function useCurrencyInfo(currency) {
     fetch(`https://api.frankfurter.dev/v1/latest?base=${currency}`)
       .then((res) => res.json())
       .then((res) => {
-        setData(res.rates); // ✅ correct
+        setData(res.rates);
       });
   }, [currency]);
 
