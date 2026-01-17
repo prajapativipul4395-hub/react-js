@@ -7,7 +7,7 @@ function Github() {
 
   // const [data, setData] = useState([])
   // useEffect(() => {
-  //   fetch(' https://api.github.com/users/hiteshchoudhary')
+  //   fetch(' https://github.com/prajapativipul4395-hub')
   //     .then(Response => Response.json())
   //     .then(data => {
   //       console.log(data);
