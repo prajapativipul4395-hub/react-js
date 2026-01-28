@@ -4,7 +4,7 @@ function useCurrencyInfo(currency) {
   const [data, setData] = useState({});
 
   useEffect(() => {
-    fetch(`https://api.frankfurter.dev/v1/latest?base=${currency}`)
+    fetch(`https://api.frankfurter.app/latest?from=${currency}`)
       .then((res) => res.json())
       .then((res) => {
         setData(res.rates);
